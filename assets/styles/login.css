@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body
+{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Background/sunset.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.form h2
+{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding-left: 66px;
+}
+.log-form
+{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+.container
+{
+  padding-top: 56px;
+}
+.button
+{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}

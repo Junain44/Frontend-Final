@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/styles/register.css" type="text/css">
+</head>
+<body>
+<header>
+<div class="form">
+	<h2>Register-Form</h2>
+</div>
+<div class="reg-form">
+	<div class="container">
+		<form onsubmit="event.preventDefault(); createUsers();" id="register">
+			<label>name:</label><br>
+			<input class="input" type="text" placeholder="first_name" name='firstname'><br><br>
+			<label>last-name:</label><br>	
+			<input class="input" type="text" placeholder="last_name" name='lastname'><br><br>
+			<label>password:</label><br>
+			<input type="input" type="password" placeholder="password" name='password'><br><br>
+			<label>confirm-password:</label><br>
+			<input type="input" type="password" placeholder="confirm_password" name='confirm'><br><br>				
+			<button type="submit">Submit!</button>
+		</form>	  
+	</div>
+</div>
+</header>
+<script src="/assets/script/register.js"></script> 
+</body>
+</html>	
