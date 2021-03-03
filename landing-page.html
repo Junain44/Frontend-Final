@@ -4,41 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/landing-page.css" type="text/css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/landing-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <title>Home</title>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">?</a>
-        <ul>
-            <li><a href="landing-page.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="#items">Items</a></li>
-            <li><a href="#products">All Products</a></li>
-        </ul>
-    </header>
-    <br><br><br>
-    <section class="work" id="work">
-        <div class="heading">
-            <h2>My Latest Work</h2>
-            <p></p>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+           </nav>
+           <img src="./assets/images/cart.png" width="30px" height="30px">
         </div>
-        <div class="content">
-            <div class="workBx">
-                <img src="./assets/images/Background/Back1.jpg">   
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Yourself A New<br>Improved Look!</h1>
+                <p>When you look good you feel good and when you feel 
+                    good you do good, when you do good thats when you can
+                    change the world!</p>
+                 <a href="" class="btn">Explore Now &#8594;</a>
             </div>
-            <div class="workBx">
-                <img src="./assets/images/Background/Back2.jpg">
+            <div class="col-2">
+                <img src="./assets/images/Background/Back3.jpg" alt="">
             </div>
-            <div class="workBx">
-                <img src="./assets/images/Background/Back3.jpg">
-            </div>
-            <div class="workBx">
-                <img src="./assets/images/Background/Back4.jpg">
-            </div>     
-    </section>
+        </div>
+    </div>
+   </div>
 
-
+<!-- Featured Products No Database Just plain images etc-->
+   <div class="categories">
+       <div class="row">
+           <div class="col-3">
+               <img src="./assets/images/category-1.jpg">
+           </div>
+           <div class="col-3">
+            <img src="./assets/images/category-2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="./assets/images/category-3.jpg">
+        </div>
+       </div>
+   </div>
+   <div class="small container">
+       <h2>Featured Products</h2>
+       <div class="row">
+           <div class="col-4">
+               <img src="./assets/images/product-1.jpg">
+               <h4>Red Printed T-shirt</h4>
+               <div class="rating">
+                   
+               </div>
+               <p>R50.00</p>
+           </div>
+       </div>
+   </div>
 </body>
 </html>
