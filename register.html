@@ -9,26 +9,72 @@
 	<link rel="stylesheet" href="assets/styles/register.css" type="text/css">
 </head>
 <body>
-<header>
-<div class="form">
-	<h2>Register-Form</h2>
-</div>
-<div class="reg-form">
-	<div class="container">
-		<form onsubmit="event.preventDefault(); createUsers();" id="register">
-			<label>name:</label><br>
-			<input class="input" type="text" placeholder="first_name" name='firstname'><br><br>
-			<label>last-name:</label><br>	
-			<input class="input" type="text" placeholder="last_name" name='lastname'><br><br>
-			<label>password:</label><br>
-			<input type="input" type="password" placeholder="password" name='password'><br><br>
-			<label>confirm-password:</label><br>
-			<input type="input" type="password" placeholder="confirm_password" name='confirm'><br><br>				
-			<button type="submit">Submit!</button>
-		</form>	  
-	</div>
-</div>
-</header>
-<script src="/assets/script/register.js"></script> 
+
+	<div class="cont">
+		<div class="form sign-in">
+		  <h2>Sign In</h2>
+		  <label>
+			<span>Email Address</span>
+			<input type="email" name="email">
+		  </label>
+		  <label>
+			<span>Password</span>
+			<input type="password" name="password">
+		  </label>
+		  <button class="submit" type="button">Sign In</button>
+		  <p class="forgot-pass">Forgot Password ?</p>
+	
+		  <div class="social-media">
+			<ul>
+			  <li><img src="../frontend/assets/images/register/facebook.png"></li>
+			  <li><img src="../frontend/assets/images/register/instagram.png"></li>
+			  <li><img src="../frontend/assets/images/register/twitter.png"></li>
+			  <li><img src="../frontend/assets/images/register/linkedin.png"></li>
+			</ul>
+		  </div>
+		</div>
+	
+		<div class="sub-cont">
+		  <div class="img">
+			<div class="img-text m-up">
+			  <h2>New here?</h2>
+			  <p>Sign up and discover great amount of new opportunities!</p>
+			</div>
+			<div class="img-text m-in">
+			  <h2>One of us?</h2>
+			  <p>If you already has an account, just sign in. We've missed you!</p>
+			</div>
+			<div class="img-btn">
+			  <span class="m-up">Sign Up</span>
+			  <span class="m-in">Sign In</span>
+			</div>
+		  </div>
+		  <div class="form sign-up">
+			<form onsubmit="event.preventDefault()"; createUsers(); id="register">
+			<h2>Sign Up</h2>
+			<label>
+			  <span>Name</span>
+			  <input type="text" name="name">
+			</label>
+			<label>
+			  <span>Email</span>
+			  <input type="email" name="email">
+			</label>
+			<label>
+			  <span>Password</span>
+			  <input type="password" name="password">
+			</label>
+			<button type="button" class="submit">Sign Up Now</button>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	<script type="text/javascript">
+	document.querySelector('.img-btn').addEventListener('click', function()
+	{
+		document.querySelector('.cont').classList.toggle('s-signup')
+	}
+);
+	</script>
 </body>
 </html>	
