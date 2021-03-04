@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../backend/static/register.css" type="text/css">
+	<link rel="stylesheet" href="./assets/styles/register.css" type="text/css">
 </head>
 <body>
 
@@ -22,7 +22,6 @@
 			<input type="password" name="password">
 		  </label>
 		  <button class="submit" type="button">Sign In</button>
-		  <p class="forgot-pass">Forgot Password ?</p>
 	
 		  <div class="social-media">
 			<ul>
@@ -50,7 +49,7 @@
 			</div>
 		  </div>
 		  <div class="form sign-up">
-			<form onsubmit="event.preventDefault()"; createUsers(); id="register">
+			<form action="http://127.0.0.1:5000/add_user/" method="POST"  id="register">
 			<h2>Sign Up</h2>
 			<label>
 			  <span>Name</span>
@@ -64,7 +63,7 @@
 			  <span>Password</span>
 			  <input type="password" name="password">
 			</label>
-			<button type="button" class="submit">Sign Up Now</button>
+			<button type="submit" class="submit">Sign Up Now</button>
 			</form>
 		  </div>
 		</div>
@@ -76,5 +75,6 @@
 	}
 );
 	</script>
+	<script src="./assets/script/register.js"></script>
 </body>
 </html>	
