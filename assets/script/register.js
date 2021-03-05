@@ -1,6 +1,8 @@
 function createUsers(){
     const inputs = document.getElementsByTagName("input");
 
+    
+
     fetch("http://127.0.0.1:5000/add_user",{
         method: 'POST',
         body: JSON.stringify({

@@ -12,25 +12,22 @@
 
 	<div class="cont">
 		<div class="form sign-in">
-		  <h2>Sign In</h2>
-		  <label>
-			<span>Email Address</span>
-			<input type="email" name="email">
-		  </label>
-		  <label>
-			<span>Password</span>
-			<input type="password" name="password">
-		  </label>
-		  <button class="submit" type="button">Sign In</button>
-	
-		  <div class="social-media">
-			<ul>
-			  <li><img src="../frontend/assets/images/register/facebook.png"></li>
-			  <li><img src="../frontend/assets/images/register/instagram.png"></li>
-			  <li><img src="../frontend/assets/images/register/twitter.png"></li>
-			  <li><img src="../frontend/assets/images/register/linkedin.png"></li>
-			</ul>
-		  </div>
+			<form id="login" name="login" onsubmit="event.preventDefault(); userLogin()">
+				<h2>Sign In</h2>
+				<label><span>Email Address</span> </label> 
+				<input name="email" type="email">
+				<label><span>Password</span></label>
+				<input name="password" type="password"> 
+				<button class="submit" type="submit">Sign In</button>
+			</form>
+			<div class="social-media">
+				<ul>
+					<li><img src="../frontend/assets/images/register/facebook.png"></li>
+					<li><img src="../frontend/assets/images/register/instagram.png"></li>
+					<li><img src="../frontend/assets/images/register/twitter.png"></li>
+					<li><img src="../frontend/assets/images/register/linkedin.png"></li>
+				</ul>
+			</div>
 		</div>
 	
 		<div class="sub-cont">
@@ -75,6 +72,7 @@
 	}
 );
 	</script>
+	<script src="./assets/script/login.js"></script>
 	<script src="./assets/script/register.js"></script>
 </body>
 </html>	
