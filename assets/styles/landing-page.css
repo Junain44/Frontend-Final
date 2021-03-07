@@ -51,7 +51,6 @@ p{
 .col-2 img{
   max-width: 100%;
   padding:50px 0;
-<<<<<<< HEAD
 }
 .col-2 h1{
   font-size: 50px;
@@ -171,55 +170,3 @@ h4{
 .col-5:hover{
   transform: translateX(-4px);
 }
-=======
-}
-.col-2 h1{
-  font-size: 50px;
-  line-height: 62px;
-  margin:25px 0;
-}
-.btn{
-  display: inline-block;
-  background: #ff523b;
-  color: #fff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.5s;
-}
-.btn:hover{
-  background-color: #563434;
-}
-.header{
-  background: radial-gradient(#fff, #ffd6d6);
-}
-.header .row{
-  margin: 70px;
-}
-.categories{
-  margin: 70px 0;
-}
-.col-3{
-  flex-basis: 30%;
-  min-width: 250px;
-  margin-bottom: 30px;
-}
-.col-3 img{
-  width: 100%;
-}
-.small-container{
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.col-4{
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
-}
-.col-4 img{
-  width: 100%;
-}
->>>>>>> f3d0999f12ff816436d11def3120e668bff5164d
