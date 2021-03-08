@@ -27,13 +27,15 @@ nav ul li{
 a{
   text-decoration: none;
   color: #555;
+  font-size: 20px;
+  font-weight: 700;
 }
 p{
   color: #555;
   font-size: 20px;
 }
 .container{
-  max-width: 1300px;
+  max-width: 100%;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;

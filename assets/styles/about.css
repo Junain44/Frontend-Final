@@ -27,8 +27,50 @@ nav ul li{
 a{
   text-decoration: none;
   color: #555;
+  font-size: 20px;
+  font-weight: 700;
 }
 p{
   color: #555;
   font-size: 20px;
+}
+.header{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.container{
+max-width: 100%;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.About{
+  padding-top: 89px;
+  padding-right: 128px;
+  padding-left: 128px;
+  background-color: black;
+}
+h2 span{
+  color:red;
+  font-size: 79px;
+}
+h2{
+color: white;
+font-size: 79px;
+}
+p{
+color: white;
+font-size: 23px;
+}
+p{
+color: white;
+font-size: 23px;
+}
+p{
+color: white;
+font-size: 23px;
 }
