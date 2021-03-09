@@ -79,3 +79,16 @@ h1{
 .product-info {
   margin-top: auto;
 }
+
+/*Footer Section*/
+.footer{
+background-color: black;
+margin: 0px;
+padding-top: 91px;
+}
+.copyright p{
+  text-align: center;
+  font-size: 25px;
+  color:#fff;
+  padding-right: 51px;
+}

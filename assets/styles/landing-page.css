@@ -172,3 +172,128 @@ h4{
 .col-5:hover{
   transform: translateX(-4px);
 }
+
+.footer{
+  background: #000;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: #ffffff;
+}
+.footer h3{
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4, .footer-col-5{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis:30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+}
+.footer-col-2 p{
+  color:#ff523b;
+
+}
+.footer-col-3, .footer-col-4, .footer-col-5{
+  flex-basis:12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.footer-col-5 i{
+  text-align: center;
+  color: greenyellow;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border:none;
+  background: #ff523b;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright p{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+.hidden {
+  opacity: 0;
+}
+
+#loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #2ecc71;
+  background-size: cover;
+}
+
+.preloader {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  background: #e74c3c;
+  transform: rotate(45deg);
+  animation: preloader 2s linear infinite;
+}
+
+.loadBar {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  left: calc(50% - 100px);
+  top: calc(50% + 60px);
+  background: #27ae60;
+}
+
+.progress {
+  position: relative;
+  width: 0%;
+  height: inherit;
+  background: #e74c3c;
+}
+
+@keyframes loading {
+
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+}
+
+@keyframes preloader {
+
+  0%, 100% {
+    transform: rotate(45deg);
+  }
+
+  60% {
+    transform: rotate(405deg);
+  }
+
+}

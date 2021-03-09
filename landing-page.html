@@ -1,104 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/landing-page.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="./assets/styles/landing-page.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Home</title>
 </head>
 <body>
-    <div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="./assets/images/logo.png" width="125px">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="landing-page.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-           </nav>
-           <img src="./assets/images/cart.png" width="30px" height="30px">
-        </div>
-        <div class="row">
-            <div class="col-2">
-                
-                <h1>Give Yourself A New<br>Improved Look!</h1>
-                <p>When you look good you feel good and when you feel 
-                    good you do good, when you do good thats when you can
-                    change the world!</p>
-                 <a href="" class="btn">Explore Now &#8594;</a>
-            </div>
-            <div class="col-2">
-                <img src="./assets/images/Background/Back3.jpg" alt="">
-            </div>
-        </div>
-    </div>
-   </div>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 
-<!-- Featured Products No Database Just plain images etc-->
-   <div class="categories">
-       <div class="row">
-           <div class="col-3">
-               <img src="./assets/images/category-1.jpg">
-           </div>
-           <div class="col-3">
-            <img src="./assets/images/category-2.jpg">
-        </div>
-        <div class="col-3">
-            <img src="./assets/images/category-3.jpg">
-        </div>
-       </div>
-   </div>
-   <div class="small container">
-       <h2 class="title">Featured Products</h2>
-       <div class="row">
-           <div class="col-4">
-               <img src="./assets/images/product-1.jpg">
-               <h4>Red Printed T-shirt</h4>
-               <p>R50.00</p>
-           </div>
-           <div class="col-4">
-            <img src="./assets/images/product-2.jpg">
-            <h4>Red Printed T-shirt</h4>
-            <p>R50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="./assets/images/product-3.jpg">
-            <h4>Red Printed T-shirt</h4>
-            <p>R50.00</p>
-        </div>
-        <div class="col-4">
-            <img src="./assets/images/product-4.jpg">
-            <h4>Red Printed T-shirt</h4>
-            <p>R50.00</p>
-        </div>
-       </div>
-   </div>
-   <!-- Coming Soon -->
-   <div class="coming">
-    <h2 class="heading">Coming Soon</h2>
-    <div class="row">
-        <div class="col-5">
-            <img src="./assets/images/product-5.jpg">
-        </div>
-        <div class="col-5">
-         <img src="./assets/images/product-6.jpg">
-     </div>
-     <div class="col-5">
-         <img src="./assets/images/product-11.jpg">
-     </div>
-     <div class="col-5">
-         <img src="./assets/images/product-12.jpg">
-     </div>
+<!-- <div id="loader">
+
+  <div class="preloader"></div>
+
+    <div class="loadBar">
+
+      <div class="progress"></div>
+
     </div>
+
+  </div>
+
+<div id="page" class="hidden"> -->
+
+
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+			<div class="logo"><img src="./assets/images/logo.png" width="125px"></div>
+			<nav>
+				<ul>
+					<li>
+						<a href="landing-page.html">Home</a>
+					</li>
+					<li>
+						<a href="products.html">Products</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+			</nav><img height="30px" src="./assets/images/cart.png" width="30px"></div>
+			<div class="row">
+				<div class="col-2">
+					<h1>Give Yourself A New<br>
+					Improved Look!</h1>
+					<p>When you look good you feel good and when you feel good you do good, when you do good thats when you can change the world!</p><a class="btn" href="">Explore Now &#8594;</a>
+				</div>
+				<div class="col-2"><img alt="" src="./assets/images/Background/Back3.jpg"></div>
+			</div>
+		</div>
+	</div><!-- Featured Products No Database Just plain images etc-->
+	<div class="categories">
+		<div class="row">
+			<div class="col-3"><img src="./assets/images/category-1.jpg"></div>
+			<div class="col-3"><img src="./assets/images/category-2.jpg"></div>
+			<div class="col-3"><img src="./assets/images/category-3.jpg"></div>
+		</div>
+	</div>
+	<div class="small container">
+		<h2 class="title">Featured Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="./assets/images/product-1.jpg">
+				<h4>Red Printed T-shirt</h4>
+				<p>R50.00</p>
+			</div>
+			<div class="col-4">
+				<img src="./assets/images/product-2.jpg">
+				<h4>Red Printed T-shirt</h4>
+				<p>R50.00</p>
+			</div>
+			<div class="col-4">
+				<img src="./assets/images/product-3.jpg">
+				<h4>Red Printed T-shirt</h4>
+				<p>R80.00</p>
+			</div>
+			<div class="col-4">
+				<img src="./assets/images/product-4.jpg">
+				<h4>Red Printed T-shirt</h4>
+				<p>R50.00</p>
+			</div>
+		</div>
+	</div><!-- Coming Soon -->
+	<div class="coming">
+		<h2 class="heading">Coming Soon</h2>
+		<div class="row">
+			<div class="col-5"><img src="./assets/images/product-5.jpg"></div>
+			<div class="col-5"><img src="./assets/images/product-6.jpg"></div>
+			<div class="col-5"><img src="./assets/images/product-11.jpg"></div>
+			<div class="col-5"><img src="./assets/images/product-12.jpg"></div>
+		</div>
+	</div><!-- DONT FORGET THE FOOTER -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Lorem Ipsum has</h3>
+					<p>Lorem Ipsum is simply dummy textprinter took a galley of type and scrambled it to</p>
+					<div class="app-logo"><img src="./assets/images/play-store.png"></div>
+				</div>
+				<div class="footer-col-2">
+					<img src="./assets/images/logo-white.png">
+					<p>Lorem Ipsum is simply dummy text printer took a galley of type and scrambled it to</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li><i class="fa fa-home"></i>Home</li><br>
+						<li><i class="fa fa-products"></i>Products</li><br>
+						<li><i class="fa fa-about"></i>About</li><br>
+						<li><i class="fa fa-contact"></i>Contact</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li><i class="fa fa-facebook"></i>Facebook</li><br>
+						<li><i class="fa fa-twitter"></i>Twitter</li><br>
+						<li><i class="fa fa-instagram"></i>Instagram</li><br>
+						<li><i class="fa fa-youtube"></i>YouTube</li>
+					</ul>
+				</div>
+				<div class="footer-col-5">
+					<br><br>
+					<h3>Contact us</h3>
+					<ul>
+						<li><i class="fa fa-shopping-cart"></i>RedSTORE</li><br>
+						<li><i class="fa fa-map-marker"></i>Cape Town,<br>South Africa</li><br>
+						<li><i class="fa fa-envelope-o"></i>E-mail:<br> info@RedSTORE.co.za</li><br>
+						<li><i class="fa fa-phone"></i>Phone:072 562 3219</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright">
+				<p>Lorem 2020 -Ipsum is simply</p>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- DONT FORGET THE FOOTER -->
+
+<script src="assets/script/landing.js"></script>
 </body>
 </html>

@@ -74,3 +74,16 @@ p{
 color: white;
 font-size: 23px;
 }
+
+/*Footer Section*/
+.footer{
+  background: radial-gradient(#fff, #ffd6d6);
+  margin: 0px;
+  padding-top: 91px;
+  }
+  .copyright p{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    padding-right: 51px;
+  }
