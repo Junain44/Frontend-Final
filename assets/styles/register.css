@@ -310,3 +310,25 @@ button{
   -webkit-transform:translate3d(0, 0, 0);
           transform:translate3d(0, 0, 0);
 }
+
+@media screen and (max-width: 720px){
+  .cont{
+    width: 100%;
+  }
+
+  .sub-cont{
+    left: 460px;
+  }
+
+  .sign-in{
+    width: 470px;
+  }
+
+  .cont.s-signup .sub-cont {
+    -webkit-transform: translate3d(-640px, 0, 0);
+    transform: translate3d(-460px, 0, 0);}
+
+    .reg{
+      width: 70%;
+}
+}

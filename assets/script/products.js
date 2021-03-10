@@ -15,7 +15,7 @@ function getProd() {
                 <h4>${product.name}</h4>
                 <h4>${product.description}</h4>
                 <h4>${product.price}</h4>
-                <button class="btn" type="submit">Add to cart</button>
+                <button class="btn" type="submit" onsubmit>Add to Cart</button>
                 </div>
             </div>
             `;

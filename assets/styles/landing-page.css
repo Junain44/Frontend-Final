@@ -248,7 +248,7 @@ ul{
 }
 
 .preloader {
-  position: absolute;
+  position: fixed;
   width: 40px;
   height: 40px;
   left: calc(50% - 20px);
@@ -295,5 +295,14 @@ ul{
   60% {
     transform: rotate(405deg);
   }
+
+}
+
+@media screen and (max-width: 450px){
+.navbar{
+  display: contents;
+}
+
+
 
 }
