@@ -4,9 +4,9 @@ function cartCount() {
 }
 
 function add_to_cart(id) {
-    let modal = document.getElementById$("contents");
-    let cartItem = productArray.filter((product) =>{
-        return product.ID == id;
+    let modal = document.getElementById$("content");
+    let cartItem = products.filter((product) =>{
+        return product.name == name;
     });
     productCount = cartList.push(cartItem[0]);
     let selectedItems = cartItem[0];
