@@ -1,15 +1,18 @@
 function createUsers(){
-    const inputs = document.getElementsByTagName("input");
+    let form = document.getElementById("register")
+    const inputs = form.getElementsByTagName("input");
 
-    
+    let user = {
+        name: inputs[0].value, 
+        email: inputs[1].value,
+        password: inputs[2].value,
+    }
 
-    fetch("http://127.0.0.1:5000/add_user",{
+    console.log(user);
+
+    fetch("https://glacial-sierra-17146.herokuapp.com/add_user/",{
         method: 'POST',
-        body: JSON.stringify({
-            name: inputs[0].value, 
-            email: inputs[1].value,
-            password: inputs[2].value,
-        }),
+        body: JSON.stringify(user),
         headers: {
             "Content-Type": "application/json; charset=UTF-8",
         },
@@ -17,6 +20,7 @@ function createUsers(){
     .then((response) => response.json())
     .then((json) => {
         alert("User has been created");
+        console.log(json);
         document.getElementById("register").reset();
     });
 }

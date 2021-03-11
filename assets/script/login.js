@@ -1,7 +1,7 @@
 let users = [];
 
 
-fetch(" http://127.0.0.1:5000/show/")
+fetch("https://glacial-sierra-17146.herokuapp.com/show/")
     .then((response) =>response.json())
     .then((data) => {
     console.log(data);
