@@ -1,5 +1,5 @@
 function getProd() {
-    fetch("http://127.0.0.1:5000//show_products/")
+    fetch("https://glacial-sierra-17146.herokuapp.com/show_products/")
     .then((response) => response.json())
     .then((data) => {
         console.table(data);
