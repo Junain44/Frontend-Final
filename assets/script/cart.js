@@ -1,10 +1,5 @@
-function cartCount() {
-    let x = productCount;
-    document.getElementById("lblCartCount").innerHTML = x;
-}
-
 function add_to_cart(id) {
-    let modal = document.getElementById$("content");
+    let name = document.getElementById$("name");
     let cartItem = products.filter((product) =>{
         return product.name == name;
     });
@@ -25,7 +20,7 @@ function add_to_cart(id) {
     console.log(productCount);
 
     function calculateTotalPrice(){
-        let totalValue = document.getElementsByClassName("price")[0];
+        let totalValue = document.getElementsByClassName("price")[4];
         let num1 = parseInt(totalValue.innerHTML);
         let num2 =document
         .getElementById("items" + id)
@@ -57,7 +52,7 @@ function checkout() {
 // remove items on checkoutlist
 
 function removeItems(id)
-let recieptTotal = document.getElementsByClassName("price")[0];
+let totals = document.getElementsByClassName("price")[0];
 let y = parseInt(recietTotal.innerHTML);
 console.log(y);
 let x = document.getElementById("items" + id).getAttribute("product-prices");
@@ -78,3 +73,5 @@ if (total == 0) {
 }
 
     
+
+

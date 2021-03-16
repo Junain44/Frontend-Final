@@ -1,5 +1,5 @@
 function getProd() {
-    fetch("http://127.0.0.1:5000//show_products/")
+    fetch("https://glacial-sierra-17146.herokuapp.com/show_products/")
     .then((response) => response.json())
     .then((data) => {
         console.table(data);
@@ -12,10 +12,10 @@ function getProd() {
                     <img src=${product.image}/>
                 </div>
                 <div class="product-info">
-                <h4>${product.name}</h4>
-                <h4>${product.description}</h4>
-                <h4>${product.price}</h4>
-                <button class="btn" type="submit" onsubmit>Add to Cart</button>
+                <h4 id="name">${product.name}</h4>
+                <h4 id="describ">${product.description}</h4>
+                <h4 id="price">${product.price}</h4>
+                <button class="btn" type="submit" >Add to Cart</button>
                 </div>
             </div>
             `;
