@@ -25,38 +25,40 @@
 
   </div>
 
-<div id="page" class="hidden"> 
+	<header class="header">
+        <a href="#" class="logo">
+            <img src="/assets/images/logo.png" alt="logo-pic">
+        </a>
 
+        <nav class="navbar">
+            <a href="landing-page.html">home</a>
+            <a href="about.html">about</a>
+            <a href="products.html">products</a>
+            <a href="contacts.html">contact</a>
+        </nav>
 
-	<div class="header">
-		<div class="container">
-			<div class="navbar">
-			<div class="logo"><img src="./assets/images/logo.png" width="125px"></div>
-			<nav>
-				<ul>
-					<li>
-						<a href="landing-page.html">Home</a>
-					</li>
-					<li>
-						<a href="products.html">Products</a>
-					</li>
-					<li>
-						<a href="about.html">About</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+        <img src="./assets/images/cart.png"  alt="" class="cart-nav">       
+    </header>
+
+		<section class="hero-section">
 			<div class="row">
 				<div class="col-2">
 					<h1>Give Yourself A New<br>
 					Improved Look!</h1>
-					<p>When you look good you feel good and when you feel good you do good, when you do good thats when you can change the world!</p><a class="btn" href="products.html">Explore Now &#8594;</a>
+					<p>When you look good you feel good 
+						and when you feel good you do good,<br> 
+						when you do good thats when you can<br>
+						 change the world!</p>
+
+						 <a class="btn" href="products.html">Explore Now &#8594;</a>
 				</div>
 				<div class="col-2"><img src="./assets/images/Background/Back3.jpg">
 				</div>
 			</div>
-		</div>
-	</div><!-- Featured Products No Database Just plain images etc-->
+		</section>
+
+	<!-- <Featured Products No Database Just plain images etc  -->
+	<section class="second-section">
 	<div class="categories">
 		<div class="row">
 			<div class="col-3"><img src="./assets/images/category-1.jpg"></div>
@@ -64,6 +66,8 @@
 			<div class="col-3"><img src="./assets/images/category-3.jpg"></div>
 		</div>
 	</div>
+</section>
+
 	<div class="small container">
 		<h2 class="title">Featured Products</h2>
 		<div class="row">
@@ -98,29 +102,26 @@
 			<div class="col-5"><img src="./assets/images/product-12.jpg"></div>
 		</div>
 	</div><!-- DONT FORGET THE FOOTER -->
-	<div class="footer">
-		<div class="container">
+
+
+	<section class="footer">
+		<div class="box-container">
 			<div class="row">
 				<div class="footer-col-1">
-					<h3>Lorem Ipsum has</h3>
-					<p>Lorem Ipsum is simply dummy textprinter took a galley of type and scrambled it to</p>
-					<div class="app-logo"><img src="./assets/images/play-store.png"></div>
-				</div>
-				<div class="footer-col-2">
+					<div class="logo">
 					<img src="./assets/images/logo-white.png">
+				</div>
 					<p>Lorem Ipsum is simply dummy text printer took a galley of type and scrambled it to</p>
+					<div class="app-logo">
+						<img src="./assets/images/play-store.png">
+					</div>
 				</div>
-				<div class="footer-col-3">
-					<h3>Useful Links</h3>
-					<ul>
-						<li><i class="fa fa-home"></i>Home</li><br>
-						<li><i class="fa fa-products"></i>Products</li><br>
-						<li><i class="fa fa-about"></i>About</li><br>
-						<li><i class="fa fa-contact"></i>Contact</li>
-					</ul>
-				</div>
+			</div>
+
+		
+			<div class="row">
 				<div class="footer-col-4">
-					<h3>Follow us</h3>
+					<h3 class="footer-text">Follow us</h3>
 					<ul>
 						<li><i class="fa fa-facebook"></i>Facebook</li><br>
 						<li><i class="fa fa-twitter"></i>Twitter</li><br>
@@ -128,9 +129,11 @@
 						<li><i class="fa fa-youtube"></i>YouTube</li>
 					</ul>
 				</div>
+			</div>
+
+			<div class="row">
 				<div class="footer-col-5">
-					<br><br>
-					<h3>Contact us</h3>
+					<h3 class="footer-text">Contact us</h3>
 					<ul>
 						<li><i class="fa fa-shopping-cart"></i>RedSTORE</li><br>
 						<li><i class="fa fa-map-marker"></i>Cape Town,<br>South Africa</li><br>
@@ -139,13 +142,14 @@
 					</ul>
 				</div>
 			</div>
-			<hr>
-			<div class="copyright">
-				<p>Lorem 2020 -Ipsum is simply</p>
-			</div>
 		</div>
-	</div>
-</div>
+</section>
+
+
+
+
+
+
 
 <script src="assets/script/landing.js"></script>
 </body>

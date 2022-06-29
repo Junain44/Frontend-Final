@@ -6,63 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/products.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact</title>
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="./assets/images/logo.png" width="125px">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="landing-page.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-               </nav>
-                <img src="./assets/images/cart.png"  alt="" class="cart-nav">
-            </div>
-            <hr>
 
-        <section>
-            <div id="all-produ">
-                <h1>All <span>Pro</span>ducts:</h1>
-            </div>
-            <ul id="products">
-            </ul>
-		</div>
-        <!-- Modal -->
-        <div id="myModal" class="modal" id="content">
-            <span class="close">&times;</span>
-            <div class="total-price">
-                <div class="total-results">
-                    <h1>Total Price:R </h1>
-                    <h1 class="price" id="prices">0</h1>
-                    <button class="checkout" onclick="">Checkout</button>
-                </div>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="/assets/images/logo.png" alt="logo-pic">
+        </a>
 
-            <div id="contents"></div>
-            </div>
+        <nav class="navbar">
+            <a href="landing-page.html">home</a>
+            <a href="about.html">about</a>
+            <a href="products.html">products</a>
+            <a href="contacts.html">contact</a>
+        </nav>
+
+        <img src="./assets/images/cart.png"  alt="" class="cart-nav">       
+    </header>
+
+    <section class="prod">
+        <div id="all-produ">
+            <h1>On <span>Special:</span></h1>
         </div>
+        <ul id="products">
+        </ul>
     </section>
 
-            <!--Footer-->
+      <section class="footer-section">
 			<div class="footer">
 			<div class="copyright">
 				<p>Lorem 2020 -Ipsum is simply</p>
 			</div>
-		</div>
-		</div>
+		</div> 
+		</section>
+
+
 <script src="./assets/script/products.js"></script>
 <script src="./assets/script/cart.js"></script>
 </body>
-
-<script>
-    function calc();
-let a = document.getElementById('prices')
-console.log(a)
-</script>
 </html>

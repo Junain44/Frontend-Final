@@ -1,83 +1,110 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;600;700;800;900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
-.navbar{
+
+
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
   display: flex;
   align-items: center;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 2rem 10%;
+  border-bottom: 1px solid rgb(255, 255, 255, .3);
+  top: 0; left: 0; right: 0;
+  }
+
+  .header .logo img{
+    height: 2rem;
 }
-nav{
-  flex: 1;
-  text-align: right;
+
+.header .navbar a{
+    margin: 10px 10px 10px 10px;
+    font-size: 1rem;
+    color: #000;
+    text-transform: capitalize;
 }
-nav ul{
-  display: inline-block;
-  list-style-type: none;
+
+.header .cart-nav{
+  width: 2%;
+  display: flex;
+  padding-bottom: 11px;
 }
-nav ul li{
-  display: inline-block;
-  margin-right: 20px;
+
+.heading{
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #000;
+  text-align: center;
+  padding: 45px;
 }
-a{
-  text-decoration: none;
-  color: #555;
-  font-size: 20px;
-  font-weight: 700;
+
+.about{
+padding: 5rem 7%;
 }
-p{
-  color: #555;
-  font-size: 20px;
+
+.about .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
-.header{
-  height: 100%;
+
+.about .row .image{
+  flex:1 1 45rem;
+}
+
+.about .row .image img{
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  background: radial-gradient(#fff, #ffd6d6);
+  display: block;
 }
-.container{
-max-width: 100%;
-margin: auto;
-padding-left: 25px;
-padding-right: 25px;
+.about .row .content{
+  flex:1 1 45rem;
+  padding: 2rem;
+  background: var(--black );
 }
-.About{
-  padding-top: 89px;
-  padding-right: 128px;
-  padding-left: 128px;
-  background-color: black;
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: #000;
+  font-weight: 400;
 }
-h2 span{
-  color:red;
-  font-size: 79px;
+
+.about .row .content p{
+  font-size: 20px;
+    color: #000;
+    padding: 1rem 0;
+    line-height: 1.6;
+    width: 32em;
+    font-weight: 400;
 }
-h2{
-color: white;
-font-size: 79px;
+
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: .5s;
 }
-p{
-color: white;
-font-size: 23px;
-}
-p{
-color: white;
-font-size: 23px;
-}
-p{
-color: white;
-font-size: 23px;
+
+.btn:hover{
+  background: rgb(131, 131, 131);
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /*Footer Section*/
 .footer{
-  background: radial-gradient(#fff, #ffd6d6);
+  background: #000;
   margin: 0px;
   padding-top: 91px;
   }
